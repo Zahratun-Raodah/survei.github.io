@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Survey Film One Piece</h1>
+      <p>Mohon Untuk Meluangkan Waktu Anda Sebentar</p>
+      <div class="kotak">
+        <label for="Nama">Nama</label>
+        <input type="text" id="Nama" placeholder="Enter your name" />
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+        <label for="Umur">Umur (Pilihan)</label>
+        <input type="number" id="Umur" placeholder="Umur" />
+        <label for="Tokoh">Tokoh Favorite</label>
+        <select name="Tokoh" id="Tokoh">
+          <option value="">Luffy</option>
+          <option value="">Zoro</option>
+          <option value="">Nami</option>
+          <option value="">Usopp</option>
+          <option value="">Sanji</option>
+          <option value="">Chopper</option>
+          <option value="">Robin</option>
+        </select>
+        <label for="Jenis Kelamin">Jenis Kelamin</label>
+        <br />
+        <div class="content">
+          <div class="satu">
+            <label for="Laki-Laki"><input type="radio" id="Laki-Laki" name="Jenis Kelamin" /> Laki-Laki</label>
+          </div>
+          <div class="dua">
+            <label for="Perempuan"><input type="radio" id="Perempuan" name="Jenis Kelamin" />Perempuan</label>
+          </div>
+        </div>
+        <br />
+        <label for="episode">Pilih Episode</label>
+        <select name="episode" id="episode">
+          <option value="">The Sea Of Separation In THe Snow</option>
+          <option value="">The Battle For Superiority Starts</option>
+          <option value="">The Biginning Of The New Chapter</option>
+          <option value="">A State Of Emergency!</option>
+        </select>
+        <label for="">Apa yang Membuat Anda Menyukai Film One Piece</label>
+        <div class="pilihan">
+          <label for="seru"><input type="checkbox" id="seru" />Seru</label>
+          <label for="moral"><input type="checkbox" id="moral" />Pesan Moral yang kuat</label>
+          <label for="Gabut"> <input type="checkbox" id="Gabut" />Gabut</label>
+          <label for="Waktu"> <input type="checkbox" id="Waktu" />Mengisi Waktu</label>
+          <label for="Hobi"><input type="checkbox" id="Hobi" />Hobi</label>
+        </div>
+        <label for="pesan">Berikan Komentar atau Saran Anda</label>
+        <textarea name="" id="pesan" cols="30" rows="10">Enter your comment here...</textarea>
+        <button>Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
